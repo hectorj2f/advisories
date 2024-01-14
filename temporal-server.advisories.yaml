@@ -37,6 +37,10 @@ advisories:
         data:
           note: |
             We faced issues with "otlpmetricgrpc@v0.44.0/internal/transform/metricdata.go:108:18:undefined: metricdata.ExponentialHistogram" when upgrading otlpmetricgrpc to v0.46.0. It has some strict dependencies in the source code common/telemetry using an old version and thus this fix will require some code changes in upstream.
+      - timestamp: 2024-01-14T11:51:54Z
+        type: pending-upstream-fix
+        data:
+          note: This vulnerability needs upstream changes to resolve conflicts when upgrading the vulnerable dependency `otelgrpc`.
 
   - id: CVE-2023-48795
     aliases:
