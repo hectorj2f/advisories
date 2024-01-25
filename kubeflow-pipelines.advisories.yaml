@@ -293,3 +293,14 @@ advisories:
         data:
           type: vulnerable-code-not-included-in-package
           note: This is test code that is never used in production. To get more detail about the false-positive determination, please check https://github.com/browserify/resolve/issues/288
+
+  - id: GHSA-f9jg-8p32-2f55
+    events:
+      - timestamp: 2024-01-25T16:56:12Z
+        type: pending-upstream-fix
+        data:
+          note: This vulnerability requires upstream changes to upgrade the Kubernetes version from 'v1.11' to 'v1.26.0-alpha.3'.
+      - timestamp: 2024-01-25T16:58:06Z
+        type: pending-upstream-fix
+        data:
+          note: This vulnerability requires upstream changes to upgrade the Kubernetes version from v1.11 to v1.26.0-alpha.3.
