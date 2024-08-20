@@ -25,3 +25,7 @@ advisories:
         type: pending-upstream-fix
         data:
           note: This vulnerability requires many upstream code changes and as a consequence a new release is needed to fix this vulnerability.
+      - timestamp: 2024-08-20T09:30:27Z
+        type: pending-upstream-fix
+        data:
+          note: This vulnerability requires many upstream code changes and as a consequence a new release is needed to fix this vulnerability.
